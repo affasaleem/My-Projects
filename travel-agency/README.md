@@ -1,4 +1,5 @@
-# 🌍 Travel Agency Website
+# 🌍 WonderLux
+## Travel Agency Website -🔗http://bit.ly/4fqSPOR
 
 A modern, fully responsive Travel Agency Website built using **HTML5**, **CSS3**, and **Bootstrap 5**. This project showcases a professional travel agency landing page with attractive destinations, tour packages, services, testimonials, and a responsive design optimized for all devices.
 
@@ -76,7 +77,7 @@ This website is optimized for:
 
 ## 🌐 Live Demo
 
-Add your live website link here:
+Website link here:
 
 ```text
 http://bit.ly/4fqSPOR
@@ -86,21 +87,6 @@ http://bit.ly/4fqSPOR
 
 Add project screenshots inside a `screenshots` folder and update this section.
 
-## ⚙️ Installation
-
-1. Clone the repository
-
-```bash
-git clone https://github.com/affasaleem/travel-agency-website.git
-```
-
-2. Navigate to the project folder
-
-```bash
-cd travel-agency-website
-```
-
-3. Open `index.html` in your browser.
 
 ## 📚 Learning Objectives
 
