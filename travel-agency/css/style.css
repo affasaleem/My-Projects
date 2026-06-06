@@ -203,7 +203,8 @@ h1, h2, h3, h4, h5, h6 {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background-image: url('https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=1920&h=1080&fit=crop');
+    /* background-image: url('https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=1920&h=1080&fit=crop'); */
+    background-image: url('../images/hero-bg-img.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -488,7 +489,7 @@ h1, h2, h3, h4, h5, h6 {
 .adventure-banner {
     position: relative;
     padding: 100px 0;
-    background-image: url('https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=1920&h=600&fit=crop');
+    background-image: url('../images/adventure-banner-bg-img.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
