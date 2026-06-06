@@ -1,0 +1,640 @@
+/* ============================================
+   WANDERLUX TRAVEL AGENCY - RESPONSIVE STYLES
+   ============================================
+   All media queries for responsive design.
+   Breakpoints:
+   - 1200px (large desktops)
+   - 1024px (desktops / small laptops)
+   - 991px  (tablets landscape)
+   - 768px  (tablets portrait)
+   - 576px  (mobile phones)
+   ============================================ */
+
+
+/* ============================================
+   BREAKPOINT: 1200px and below
+   ============================================ */
+@media (max-width: 1200px) {
+
+    .hero-title {
+        font-size: 3rem;
+    }
+
+    .section-title {
+        font-size: 2.25rem;
+    }
+
+    .adventure-title {
+        font-size: 2.5rem;
+    }
+
+    .search-form-wrapper {
+        max-width: 100%;
+    }
+}
+
+
+/* ============================================
+   BREAKPOINT: 1024px and below
+   ============================================ */
+@media (max-width: 1024px) {
+
+    .section-padding {
+        padding: 70px 0;
+    }
+
+    .hero-section {
+        background-attachment: scroll;
+        min-height: auto;
+        padding: 100px 0 70px;
+    }
+
+    .adventure-banner {
+        background-attachment: scroll;
+        padding: 80px 0;
+    }
+
+    .hero-title {
+        font-size: 2.75rem;
+    }
+
+    .hero-description {
+        font-size: 1.1rem;
+    }
+
+    .stat-number {
+        font-size: 2.5rem;
+    }
+
+    .contact-form-wrapper {
+        padding: 2rem;
+    }
+}
+
+
+/* ============================================
+   BREAKPOINT: 991px and below (Tablets)
+   ============================================ */
+@media (max-width: 991px) {
+
+    .section-padding {
+        padding: 60px 0;
+    }
+
+    /* Navbar - mobile menu styling */
+    .navbar-collapse {
+        background-color: var(--white);
+        padding: 1rem;
+        border-radius: var(--border-radius);
+        box-shadow: var(--shadow-md);
+        margin-top: 0.75rem;
+    }
+
+    .navbar-nav .nav-link::after {
+        display: none;
+    }
+
+    .navbar-nav .nav-item {
+        text-align: center;
+    }
+
+    .navbar-nav .nav-link {
+        padding: 0.75rem 1rem !important;
+    }
+
+    .btn-book-nav {
+        display: block;
+        width: 100%;
+        margin-top: 0.5rem;
+        text-align: center;
+    }
+
+    /* Hero adjustments */
+    .hero-title {
+        font-size: 2.5rem;
+    }
+
+    .search-form-wrapper {
+        padding: 1.5rem;
+    }
+
+    .search-form .col-md-2 {
+        margin-top: 0.5rem;
+    }
+
+    .hero-cta .btn {
+        display: inline-block;
+        width: auto;
+    }
+
+    /* Section titles */
+    .section-title {
+        font-size: 2rem;
+    }
+
+    .section-subtitle {
+        font-size: 1rem;
+    }
+
+    /* Adventure banner */
+    .adventure-title {
+        font-size: 2.25rem;
+    }
+
+    .adventure-text {
+        font-size: 1.1rem;
+    }
+
+    /* Stats section */
+    .stats-section {
+        padding: 50px 0;
+    }
+
+    .stat-number {
+        font-size: 2.25rem;
+    }
+
+    /* Newsletter */
+    .newsletter-title {
+        font-size: 1.75rem;
+    }
+
+    /* Footer */
+    .footer {
+        padding: 50px 0 25px;
+    }
+
+    .footer-heading {
+        margin-top: 1rem;
+    }
+}
+
+
+/* ============================================
+   BREAKPOINT: 768px and below (Small Tablets)
+   ============================================ */
+@media (max-width: 768px) {
+
+    .section-padding {
+        padding: 50px 0;
+    }
+
+    .section-header {
+        margin-bottom: 2rem;
+    }
+
+    /* Hero */
+    .hero-section {
+        padding: 90px 0 60px;
+    }
+
+    .hero-badge {
+        font-size: 0.75rem;
+        padding: 6px 14px;
+        letter-spacing: 1px;
+    }
+
+    .hero-title {
+        font-size: 2rem;
+    }
+
+    .hero-description {
+        font-size: 1rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .search-form-wrapper {
+        padding: 1.25rem;
+        border-radius: var(--border-radius);
+    }
+
+    .search-form .form-label {
+        font-size: 0.8rem;
+    }
+
+    .hero-cta .btn-lg {
+        padding: 0.6rem 1.5rem;
+        font-size: 1rem;
+    }
+
+    /* Section titles */
+    .section-title {
+        font-size: 1.75rem;
+    }
+
+    .section-badge {
+        font-size: 0.75rem;
+        padding: 5px 12px;
+    }
+
+    /* Cards */
+    .destination-card .card-img-top {
+        height: 200px;
+    }
+
+    .package-card .card-img-top {
+        height: 180px;
+    }
+
+    .feature-card {
+        padding: 1.5rem 1.25rem;
+    }
+
+    .feature-icon {
+        width: 60px;
+        height: 60px;
+    }
+
+    .feature-icon i {
+        font-size: 1.5rem;
+    }
+
+    .service-card {
+        padding: 1.5rem;
+    }
+
+    /* Adventure banner */
+    .adventure-banner {
+        padding: 60px 0;
+    }
+
+    .adventure-title {
+        font-size: 1.85rem;
+    }
+
+    .adventure-text {
+        font-size: 1rem;
+    }
+
+    .adventure-text strong {
+        font-size: 1.2rem;
+    }
+
+    /* Stats */
+    .stat-icon {
+        font-size: 2rem;
+    }
+
+    .stat-number {
+        font-size: 2rem;
+    }
+
+    .stat-label {
+        font-size: 0.85rem;
+    }
+
+    /* Testimonials */
+    .testimonial-card .card-body {
+        padding: 1.5rem;
+    }
+
+    .testimonial-text {
+        font-size: 0.95rem;
+    }
+
+    /* Contact */
+    .contact-form-wrapper {
+        padding: 1.5rem;
+        margin-top: 1rem;
+    }
+
+    .contact-icon {
+        width: 45px;
+        height: 45px;
+    }
+
+    /* Newsletter */
+    .newsletter-section {
+        padding: 50px 0;
+    }
+
+    .newsletter-title {
+        font-size: 1.5rem;
+    }
+
+    .newsletter-text {
+        font-size: 0.95rem;
+    }
+
+    .newsletter-form .btn-lg {
+        padding: 0.6rem 2rem;
+        font-size: 1rem;
+    }
+
+    /* Footer */
+    .social-icons {
+        justify-content: center;
+    }
+
+    .footer-brand {
+        justify-content: center;
+    }
+
+    .footer-text {
+        text-align: center;
+    }
+
+    .social-icons {
+        margin-bottom: 0.5rem;
+    }
+}
+
+
+/* ============================================
+   BREAKPOINT: 576px and below (Mobile Phones)
+   ============================================ */
+@media (max-width: 576px) {
+
+    .section-padding {
+        padding: 40px 0;
+    }
+
+    /* Navbar */
+    .brand-text {
+        font-size: 1.25rem;
+    }
+
+    .brand-icon {
+        font-size: 1.5rem;
+    }
+
+    #mainNavbar {
+        padding: 0.75rem 0;
+    }
+
+    /* Hero */
+    .hero-section {
+        padding: 80px 0 50px;
+    }
+
+    .hero-title {
+        font-size: 1.65rem;
+        line-height: 1.35;
+    }
+
+    .hero-description {
+        font-size: 0.95rem;
+    }
+
+    .search-form-wrapper {
+        padding: 1rem;
+    }
+
+    .search-form .input-group-text,
+    .search-form .form-control,
+    .search-form .form-select {
+        font-size: 0.9rem;
+        padding: 0.6rem 0.75rem;
+    }
+
+    .btn-search {
+        padding: 0.6rem 0.75rem;
+        font-size: 0.9rem;
+    }
+
+    .hero-cta {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    .hero-cta .btn {
+        width: 100%;
+        max-width: 280px;
+        margin: 0 !important;
+    }
+
+    /* Section headers */
+    .section-title {
+        font-size: 1.5rem;
+    }
+
+    .section-subtitle {
+        font-size: 0.9rem;
+        padding: 0 0.5rem;
+    }
+
+    .section-header {
+        margin-bottom: 1.5rem;
+    }
+
+    /* Destination cards */
+    .destination-card .card-img-top {
+        height: 180px;
+    }
+
+    .destination-card .card-body {
+        padding: 1.25rem;
+    }
+
+    .price-tag strong {
+        font-size: 1.1rem;
+    }
+
+    /* Feature cards */
+    .feature-card {
+        padding: 1.25rem 1rem;
+    }
+
+    .feature-title {
+        font-size: 1rem;
+    }
+
+    .feature-text {
+        font-size: 0.85rem;
+    }
+
+    /* Package cards */
+    .package-card .card-img-top {
+        height: 160px;
+    }
+
+    .package-card .card-body {
+        padding: 1.25rem;
+    }
+
+    .package-price {
+        font-size: 1.25rem;
+    }
+
+    .package-rating .rating-text {
+        display: block;
+        margin-left: 0;
+        margin-top: 0.25rem;
+    }
+
+    /* Adventure banner */
+    .adventure-banner {
+        padding: 50px 0;
+    }
+
+    .adventure-badge {
+        font-size: 0.75rem;
+        padding: 6px 14px;
+    }
+
+    .adventure-title {
+        font-size: 1.5rem;
+    }
+
+    .adventure-text {
+        font-size: 0.9rem;
+        padding: 0 0.5rem;
+    }
+
+    .adventure-text strong {
+        font-size: 1.1rem;
+    }
+
+    .adventure-content .btn-lg {
+        padding: 0.6rem 1.5rem;
+        font-size: 1rem;
+    }
+
+    /* Service cards */
+    .service-card {
+        padding: 1.25rem;
+    }
+
+    .service-icon {
+        width: 50px;
+        height: 50px;
+    }
+
+    .service-icon i {
+        font-size: 1.25rem;
+    }
+
+    .service-title {
+        font-size: 1rem;
+    }
+
+    .service-text {
+        font-size: 0.85rem;
+    }
+
+    /* Stats */
+    .stats-section {
+        padding: 40px 0;
+    }
+
+    .stat-card {
+        padding: 1rem 0.5rem;
+    }
+
+    .stat-icon {
+        font-size: 1.75rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .stat-number {
+        font-size: 1.75rem;
+    }
+
+    .stat-label {
+        font-size: 0.75rem;
+        letter-spacing: 0.5px;
+    }
+
+    /* Testimonials */
+    .testimonial-card .card-body {
+        padding: 1.25rem;
+    }
+
+    .testimonial-avatar {
+        width: 45px;
+        height: 45px;
+    }
+
+    .author-name {
+        font-size: 0.9rem;
+    }
+
+    .author-country {
+        font-size: 0.8rem;
+    }
+
+    /* Gallery */
+    .gallery-grid {
+        --bs-gutter-x: 0.5rem;
+        --bs-gutter-y: 0.5rem;
+    }
+
+    .gallery-overlay span {
+        font-size: 0.85rem;
+        letter-spacing: 1px;
+    }
+
+    /* Contact */
+    .contact-info-title {
+        font-size: 1.25rem;
+        text-align: center;
+    }
+
+    .contact-item {
+        flex-direction: column;
+        align-items: center !important;
+        text-align: center;
+    }
+
+    .contact-item .ms-3 {
+        margin-left: 0 !important;
+        margin-top: 0.75rem;
+    }
+
+    .contact-form-wrapper {
+        padding: 1.25rem;
+    }
+
+    .contact-form .btn-lg {
+        width: 100%;
+        padding: 0.75rem 1rem;
+        font-size: 1rem;
+    }
+
+    /* Newsletter */
+    .newsletter-section {
+        padding: 40px 0;
+    }
+
+    .newsletter-title {
+        font-size: 1.35rem;
+    }
+
+    .newsletter-text {
+        font-size: 0.9rem;
+        padding: 0 0.5rem;
+    }
+
+    .newsletter-form .form-control-lg {
+        font-size: 0.95rem;
+        padding: 0.65rem 1rem;
+    }
+
+    .newsletter-form .btn-lg {
+        width: 100%;
+    }
+
+    /* Footer */
+    .footer {
+        padding: 40px 0 20px;
+        text-align: center;
+    }
+
+    .footer-heading::after {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .footer-contact li {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.25rem;
+    }
+
+    .footer-bottom p {
+        font-size: 0.8rem;
+    }
+}
