@@ -1,8 +1,7 @@
-# AURA Events - Premium Event Management Website
+# 🎈 AURA Events - Premium Event Management Website
 
 A modern, visually stunning, and premium Event Management website designed with an immersive **Dark Glassmorphic UI/UX theme**. It is built purely using semantic **HTML5** and modern **CSS3** (incorporating Grid, Flexbox, Custom CSS Variables, backdrop-filters, and custom keyframe animations). 
 
----
 
 ## 🌟 Key Features
 
